@@ -1,12 +1,15 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../styles/videoSlider.css';
+import equipment from '../public/images/equipments.png';
+import staff from '../public/images/staff.png';
+import video from '../public/videos/video1.mp4';
 
 const VideoSlider = () => {
   const slides = [
     {
       id: 1,
       type: 'video',
-      videoSrc: "../public/videos/video1.mp4",
+      videoSrc: video,
       posterSrc: "https://img.youtube.com/vi/HMjc-UHyDjk/maxresdefault.jpg",
       title: "State of the Art Facilities",
       description: "Tour our state-of-the-art facilities and see why we are the preferred choice for healthcare in the region."
@@ -14,14 +17,14 @@ const VideoSlider = () => {
     {
       id: 2,
       type: 'image',
-      imageSrc: "../public/images/equipments.png", 
+      imageSrc: equipment, 
       title: "Advanced Medical Equipment",
       description: "Our hospital features the latest medical technology to provide the best care possible to our patients."
     },
     {
       id: 3,
       type: 'image',
-      imageSrc: "../public/images/staff.png", 
+      imageSrc: staff, 
       title: "Experienced Medical Staff",
       description: "Our team of experienced doctors and nurses is dedicated to providing exceptional care to our patients."
     }

@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 import '../styles/header.css'
+import image from '../public/images/logo.png'
 const Header = () => {
   const [mobileMenuOpen,setMobileMenuOpen]=useState(false)
   return (
     <header className='header'>
       <div className='container header-container'>
         <div className='logo'>
-          <img src='../public/images/logo.png' alt="logo" />
+          <img src={image} alt="logo" />
           <h1>MediCare</h1>
         </div>
         <button className='nav-toggle' onClick={()=>setMobileMenuOpen(!mobileMenuOpen)}>
