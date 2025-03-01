@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer-col'>
           <h3>MediCare Hospital</h3>
           <p>
-            Providing expectional healthcare services since 1995.We're commited
+            Providing expectional healthcare services since 1990.We're commited
             to delivering the highest quality care to our patients. 
           </p>
         </div>
