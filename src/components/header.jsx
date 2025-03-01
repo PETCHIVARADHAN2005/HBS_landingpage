@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import '../styles/header.css'
-import image from '../public/images/logo.png'
+import image from '../../public/images/logo.png'
 const Header = () => {
   const [mobileMenuOpen,setMobileMenuOpen]=useState(false)
   return (
