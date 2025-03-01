@@ -1,0 +1,40 @@
+footer{
+  background-color: #222;
+    color: #ddd;
+    padding: 60px 0 20px;
+}
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.footer-col h3{
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  position: relative;
+}
+.footer-col h3::after{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background-color: #0070cd;
+}
+.footer-col p,.footer-col li{
+  color:#aaa;
+  margin-bottom: 10px;
+}
+.footer-col a:hover{
+  color: white;
+}
+.footer-bottom{
+  text-align:center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  color: #888;
+  font-size:0.9rem;
+}
