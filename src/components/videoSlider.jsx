@@ -6,7 +6,7 @@ const VideoSlider = () => {
     {
       id: 1,
       type: 'video',
-      videoSrc: "../src/videos/video1.mp4",
+      videoSrc: "../public/videos/video1.mp4",
       posterSrc: "https://img.youtube.com/vi/HMjc-UHyDjk/maxresdefault.jpg",
       title: "State of the Art Facilities",
       description: "Tour our state-of-the-art facilities and see why we are the preferred choice for healthcare in the region."
@@ -14,14 +14,14 @@ const VideoSlider = () => {
     {
       id: 2,
       type: 'image',
-      imageSrc: "../src/images/equipments.png", 
+      imageSrc: "../public/images/equipments.png", 
       title: "Advanced Medical Equipment",
       description: "Our hospital features the latest medical technology to provide the best care possible to our patients."
     },
     {
       id: 3,
       type: 'image',
-      imageSrc: "../src/images/staff.png", 
+      imageSrc: "../public/images/staff.png", 
       title: "Experienced Medical Staff",
       description: "Our team of experienced doctors and nurses is dedicated to providing exceptional care to our patients."
     }

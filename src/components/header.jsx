@@ -6,7 +6,7 @@ const Header = () => {
     <header className='header'>
       <div className='container header-container'>
         <div className='logo'>
-          <img src='../src/images/logo.png' alt="logo" />
+          <img src='../public/images/logo.png' alt="logo" />
           <h1>MediCare</h1>
         </div>
         <button className='nav-toggle' onClick={()=>setMobileMenuOpen(!mobileMenuOpen)}>
