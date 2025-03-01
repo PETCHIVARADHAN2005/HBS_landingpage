@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../styles/videoSlider.css';
-import equipment from '../public/images/equipments.png';
+import equipment from '../../public/images/equipments.png';
 import staff from '../../public/images/staff.png';
 import video from '../../public/videos/video1.mp4';
 
